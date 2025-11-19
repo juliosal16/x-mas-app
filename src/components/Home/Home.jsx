@@ -1,8 +1,13 @@
-import React from 'react'
+import Carousel from "../Carousel/Carousel"
+import HomeCards from "../HomeCards/HomeCards"
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="w-75 mx-auto">
+      <Carousel />
+      <HomeCards />
+    </div>
   )
 }
 
