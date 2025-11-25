@@ -1,6 +1,7 @@
 import React from 'react'
 import Car from '../../img/car.avif'
 import Home from '../../img/home.avif'
+import Random from '../../img/random.avif'
 import Entertainment from '../../img/entertainment.avif'
 
 const HomeCards = () => {
@@ -14,7 +15,8 @@ const HomeCards = () => {
             <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div className="card-footer">
-            <small className="text-body-secondary">See More</small>
+            <p><a className="link-opacity-100" href="/x-mas-app/home">See More</a></p>
+
           </div>
         </div>
       </div>
@@ -26,7 +28,7 @@ const HomeCards = () => {
             <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div className="card-footer">
-            <small className="text-body-secondary">See More</small>
+            <p><a className="link-opacity-100" href="/x-mas-app/car">See More</a></p>
           </div>
         </div>
       </div>
@@ -38,20 +40,20 @@ const HomeCards = () => {
             <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div className="card-footer">
-            <small className="text-body-secondary">See More</small>
+            <p><a className="link-opacity-100" href="/x-mas-app/entertainment">See More</a></p>
+
           </div>
         </div>
       </div>
       <div className="col">
         <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
+          <img src={Random} className="card-img-top" alt="Random" />
           <div className="card-body">
-            <h5 className="card-title">Other</h5>
-            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 className="card-title">Random</h5>
+            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div className="card-footer">
-            {/* <small className="text-body-secondary">See More</small> */}
-            <p><a className="link-opacity-100" href="#">See More</a></p>
+            <p><a className="link-opacity-100" href="/x-mas-app/random">See More</a></p>
 
           </div>
         </div>
